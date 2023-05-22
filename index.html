@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROKODE LABS</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -19,21 +20,35 @@
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project-list">
+        <div class="project">
             <h3>Embedded Projects</h3>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
+            <div class="project-list">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Project 1 Preview">
+                    <h4>Project 1</h4>
+                    <p>Description of Project 1</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Project 2 Preview">
+                    <h4>Project 2</h4>
+                    <p>Description of Project 2</p>
+                </div>
+            </div>
         </div>
-        <div class="project-list">
+        <div class="project">
             <h3>Coding Projects</h3>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
+            <div class="project-list">
+                <div class="project-item">
+                    <img src="project3.jpg" alt="Project 3 Preview">
+                    <h4>Project 3</h4>
+                    <p>Description of Project 3</p>
+                </div>
+                <div class="project-item">
+                    <img src="project4.jpg" alt="Project 4 Preview">
+                    <h4>Project 4</h4>
+                    <p>Description of Project 4</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -65,12 +80,14 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <form id="contact-form">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn">Submit</button>
-        </form>
+        <p class="contact-info">Phone: +918610008384</p>
+        <p class="contact-info">Email: projects.prokodelabs@gmail.com</p>
     </section>
+
+    <footer>
+        <p>&copy; 2023 PROKODE LABS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
